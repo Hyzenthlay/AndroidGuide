@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Guide</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- About -->
+    <string name="about_title">About Me</string>
+    <string name="about_name">Joel Aro</string>
+    <string name="about_program">Computer Programming &amp; Analysis @ Seneca College</string>
+
+    <!-- Help -->
+    <string name="button_term_info">This button will redirect you to a terminology page where you can learn some key terms related to the android development workspace.</string>
+    <string name="button_websites_info">This button will redirect you to a page with links to other places on the internet where you can learn more about android development!</string>
+
+    <!-- Terminology -->
+    <string-array name="terms">
+        <!-- Lab 1 -->
+        <item>Adb</item>
+        <item>Emulator</item>
+        <item>Android</item>
+        <item>Screenshot2</item>
+        <item>Gradle</item>
+        <item>pm command</item>
+        <item>Lint</item>
+        <item>src/main</item>
+        <item>build/outputs</item>
+        <item>res/layout</item>
+        <item>res/values</item>
+        <!-- Lab 2 -->
+        <item>Project</item>
+        <item>Panel</item>
+        <item>Toolbar</item>
+        <item>Status Bar</item>
+        <item>Preview Pane</item>
+        <item>Android Pane</item>
+        <item>Project Explorer</item>
+        <item>.idea Folder</item>
+        <item>Intellisense</item>
+        <item>Android Module</item>
+        <item>Live Layout</item>
+        <item>Init</item>
+        <item>Commit</item>
+        <item>Push</item>
+        <item>Add</item>
+        <item>Pull</item>
+        <item>Branch</item>
+        <item>Clone</item>
+    </string-array>
+
+    <!-- Lab 1 Definitions -->
+    <string-array name="definitions1">
+        <item>stands for Android Debug Bridge. It provides tools and commands that the developer can use to  debug certain parts of their application.</item>
+        <item>is the command used to run a AVD (Android Virtual Device) with the specifications defined by the developer. These specifications can be viewed by running the command \'android list avd\'. In the emulator window, the developer can access a \'fake\' android device where they are able to test the features of their application without having to use a physical android device.</item>
+        <item>is the command used to manage android projects, manage AVDs, manage the SDK, and update adb.</item>
+        <item>is the command used to easily take a picture of the screen on the emulator. The picture is then saved in the current directory.</item>
+        <item>is the command used to handle gradle programs.</item>
+        <item>is the package manager and is used to handle the packages that interact with the emulator. Can only be accessed when a AVD is running.</item>
+        <item>is the command used to check for any errors related to an android project.</item>
+        <item>contains all the source files used to build the project.</item>
+        <item>contains the .apk files which can be sent to a physical android device, which will make the application available to that device. Also contains the results of the lint command.</item>
+        <item>contains the .xml file(s) that handles how the application will look like on the android device.</item>
+        <item>contains the .xml file(s) that handle all constant data for the application. Allows the developer to easily change data that appears more than once.</item>
+    </string-array>
+
+    <!-- Lab 2 Definitions -->
+    <string-array name="definitions2">
+        <item>is a container that Android Studio recognizes as a place that holds all the files, directories, and data related to the application that the developer is working on.</item>
+        <item>is a menu at the far left, bottom, and far right of the Android Studio window. They toggle helpful displays that the user can display or hide.</item>
+        <item>is an accessible menu at the top of the Android Studio window that graphically displays a list of tools that the user can use. Tools such as undo, run debugger, push to git, etc. It allows the user to quickly use these tools without having to navigate the text-based menu.</item>
+        <item>is a bar that is displayed at the very bottom of the Android Studio window, and provides the user with valuable status information regarding the current instance of Android Studio. By default the right side of the status bar displays: the current line and current cursor position, line separator option, encoding selector, git branch selector, read-only toggle, and a highlight level setting.</item>
+        <item>is the section of the Android Studio window that displays a graphic representation of what the screen of the android device will look like when the app is run on a physical device.</item>
+        <item>can be access from the bottom panel. It is a display that displays anything related to the android devices used by the project. Users can take a screenshot on the right side of the pane, view logs, view connected devices, etc.</item>
+        <item>is a pane available on the left-most panel. It displays a graphic representation of the tree structure of the current project. The user can double click to open files and expand/collapse directories. Right clicking objects in this pane will open a menu that gives much more options related to that object.</item>
+        <item>is the folder located in the root directory of the project. This folder contains the files directly related to the project itself, such as: the name of the project, copyright files, modules, workspace, etc.</item>
+        <item>is a feature included with Android Studio that provides the user with various tools that helps the user\'s productivity with the project. Providing code completion, syntax checking, and other useful tools.</item>
+        <item>is similar to a project, but instead allows the user to choose a module(ex. phone/tablet application, android tv, android wear, etc). This will create a project using the module chosen.</item>
+        <item>means that the user is able to add/remove/move parts of the Android Studio layout to their preference. Depending on which sections they regularly use, they can also hide certain sections.</item>
+        <item>is a git command that creates an empty Git repository, or if one exists with the same name, will empty it.</item>
+        <item>is a git command that confirms you latest push command. Commit also requests a comment, which will be used to document the commit. In case a roll-back is needed, the developers know exactly where to roll-back to.</item>
+        <item>is a git command that takes all of the files on the local server and brings them to the main server. The files will remain on the local server until the developer confirms the action with the \'commit\' command.</item>
+        <item>is a git command that allows the developer to include any new files that were not there since the last time the repo was pushed.</item>
+        <item>is a git command that allows the developer to take the most current version of the repo from the main server and make a copy of it in the user\'s local server.</item>
+        <item>is a git command that allows the developer to manage git branches. They can list, create, or delete branches.</item>
+        <item>is a git command that makes a copy of the repository into a location on the local server.</item>
+    </string-array>
+
+    <string-array name="website_names">
+        <item>Android Developers</item>
+        <item>Team TreeHouse</item>
+        <item>Tutorials Point</item>
+        <item>Tutsplus</item>
+        <item>The New Boston</item>
+        <item>Android Subreddit</item>
+        <item>XDA Developers</item>
+        <item>John Selmys</item>
+        <item>Coursera</item>
+        <item>Lynda</item>
+        <item>Udacity</item>
+        <item>Stack Overflow</item>
+    </string-array>
+    <!-- Website URLs -->
+    <string-array name="website_links">
+        <item>https://developer.android.com/index.html</item>
+        <item>http://teamtreehouse.com/tracks/android-development</item>
+        <item>http://www.tutorialspoint.com/android/</item>
+        <item>http://code.tutsplus.com/series/learn-android-sdk-development-from-scratch--mobile-14542</item>
+        <item>https://www.thenewboston.com/videos.php?cat=278</item>
+        <item>http://www.reddit.com/r/Android</item>
+        <item>http://www.xda-developers.com/</item>
+        <item>https://scs.senecac.on.ca/~john.selmys/subjects/map524-151/index.html</item>
+        <item>https://www.coursera.org/course/androidpart1</item>
+        <item>http://www.lynda.com/</item>
+        <item>https://www.udacity.com/</item>
+        <item>http://www.stackoverflow.com</item>
+    </string-array>
+
+</resources>
